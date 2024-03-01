@@ -99,7 +99,7 @@ const loginUsuarios = async( req, res = response ) => {
 
 };
 
-const recalidarToken = async( req, res = response ) => {
+const revalidarToken = async( req, res = response ) => {
 
     const { uid, name } = req;
 
@@ -116,6 +116,6 @@ const recalidarToken = async( req, res = response ) => {
 module.exports = {
     crearUsuario,
     loginUsuarios,
-    recalidarToken
+    revalidarToken
 
 }
